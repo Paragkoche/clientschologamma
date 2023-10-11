@@ -1,0 +1,22 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin: auto;
+  }
+  
+  .slideWrapper {
+    display: flex;
+    overflow: hidden;
+    width: 200px;
+  }
+  
+  .slide {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .active {
+    transform: translateX(0);
+  }
+  

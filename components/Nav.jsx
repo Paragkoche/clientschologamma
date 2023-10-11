@@ -34,7 +34,7 @@ const [toggle,setToggle] = useState(false)
   <div className="">
       <Image src={'/schologamma_-removebg-preview.png'} width={50} height={50} className='w-[50px] height-[50px]' />
   </div>
-<button className="text-[70px] text-cyan-700" onClick={()=>setToggle(pre =>!pre)}>{toggle&&<GrClose className='text-cyan-700 text-[40px]'/>} {toggle===false && <FiMenu />}</button>
+<button className="text-[45px] text-cyan-700" onClick={()=>setToggle(pre =>!pre)}>{toggle&&<GrClose className='text-cyan-700 text-[40px]'/>} {toggle===false && <FiMenu />}</button>
   </div>
 
 
