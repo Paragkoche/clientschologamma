@@ -13,7 +13,7 @@ const [toggle,setToggle] = useState(false)
   return (
     <div className=''>
        
-   <nav className='hidden md:flex justify-between  backdrop-blur-md  shadow-xl  px-[10px] py-[15px] fixed z-[50] w-screen ' >
+   <nav className='hidden md:flex justify-between  backdrop-blur-md  shadow-xl px-[10px] md:px-[32px] py-[15px] fixed top-0 left-0 right-0 z-[50] w-screen ' >
   
     <div className="">
         <Image src={'/schologamma_-removebg-preview.png'} width={50} height={50} className='w-[50px] height-[50px]' />
@@ -29,7 +29,7 @@ const [toggle,setToggle] = useState(false)
 
 {/* for mobile */}
 
-   <nav className='flex md:hidden justify-center  flex-col backdrop-blur-md  shadow-xl  px-[10px] py-[15px] fixed z-[50] w-screen ' >
+   <nav className='flex md:hidden justify-center  flex-col backdrop-blur-md  shadow-xl  px-[10px] py-[15px] fixed   top-0 left-0 right-0 z-[50] w-screen ' >
   <div className="flex items-end justify-between ">
   <div className="">
       <Image src={'/schologamma_-removebg-preview.png'} width={50} height={50} className='w-[50px] height-[50px]' />
