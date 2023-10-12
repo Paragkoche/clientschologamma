@@ -16,6 +16,12 @@ const nextConfig = {
           },
         ],
       }
+      ,
+      env: {
+        ADMIN_URL: 'https://adminab9211.vercel.app',
+      },
+
+     
 }
 
 module.exports = nextConfig
