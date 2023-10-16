@@ -4,7 +4,7 @@ import React, { useEffect } from 'react'
 function Committee() {
   useEffect(() => {
     const fetchData = async()=>{
-      const res =await fetch('https://adminab9211.vercel.app/api/committee/')
+      const res =await fetch('https://adminab9211.vercel.app/api/committee')
       const data = await res.json()
       console.log(data)
     }
