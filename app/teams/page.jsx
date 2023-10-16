@@ -3,6 +3,23 @@ import ProfileClientCard from '@/components/ProfileClientCard'
 import React, { useEffect, useState } from 'react'
 
 function Teams() {
+const vv = async()=>{
+
+  let headersList = {
+    "Accept": "*/*",
+    "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+    "access-control-allow-origin": ""
+   }
+   
+   let response = await fetch("https://adminab9211.vercel.app/api/committee/", { 
+     method: "GET",
+     headers: headersList
+   });
+   
+   let data = await response.text();
+   console.log(data);
+}
+   vv();
 // const [dataTeam , setDataTeam] = useState([])
 //   useEffect(() => {
 //     const fetchData =async()=>{
